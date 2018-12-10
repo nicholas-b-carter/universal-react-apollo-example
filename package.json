@@ -38,19 +38,19 @@
     "update:schema": "npm run babel-node scripts/updateSchema"
   },
   "dependencies": {
-    "apollo-client": "~0.4.14",
+    "apollo-client": "~0.4.22",
     "babel-polyfill": "~6.16.0",
     "dotenv": "~2.0.0",
     "flag-icon-css": "~2.4.0",
     "graphql": "0.4.14",
     "graphql-tag": "~0.1.7",
     "isomorphic-fetch": "~2.2.1",
-    "react": "~15.3.1",
+    "react": "~15.3.2",
     "react-apollo": "~0.6.0",
     "react-bootstrap": "~0.30.3",
     "react-css-modules": "~3.7.10",
     "react-dom": "~15.3.1",
-    "react-redux": "~4.4.5",
+    "react-redux": "~4.4.6",
     "react-scroll": "~1.4.0",
     "redux": "~3.6.0",
     "wow.js": "~1.2.2"
