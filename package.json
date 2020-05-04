@@ -35,7 +35,9 @@
     "start": "cross-env NODE_ENV=production node compiled/index.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "update:schema": "npm run babel-node scripts/updateSchema"
+    "update:schema": "npm run babel-node scripts/updateSchema",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "apollo-client": "~0.4.14",
@@ -53,7 +55,8 @@
     "react-redux": "~4.4.5",
     "react-scroll": "~1.4.0",
     "redux": "~3.6.0",
-    "wow.js": "~1.2.2"
+    "wow.js": "~1.2.2",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "babel": "~6.5.2",
@@ -127,5 +130,6 @@
     "testPathDirs": [
       "<rootDir>/app/tests"
     ]
-  }
+  },
+  "snyk": true
 }
